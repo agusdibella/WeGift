@@ -58,7 +58,8 @@ function valor() {
 
     else {
         (opcionExperiencia === '' || NaN || opcionExperiencia < 4)
-        console.log('Elija una opcion valida')
+        console.log('Elija una opcion valida');
+        return opcionExperiencia;
       }
 }
 
