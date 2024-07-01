@@ -57,10 +57,9 @@ function valor() {
     }
 
     else {
-        opcionExperiencia === '' || NaN
+        (opcionExperiencia === '' || NaN || opcionExperiencia < 4)
         console.log('Elija una opcion valida')
-        return;
-    }
+      }
 }
 
 valor()
