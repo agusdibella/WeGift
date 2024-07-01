@@ -38,8 +38,6 @@ function valor() {
         else {
             alert('La cantidad de cuotas es invalida')
         }
-
-
     } else if (opcionExperiencia === '3') {
         let precioPorPersona = 30000;
         let cantPersonas = parseInt(prompt('Por favor ingrese la cantidad de personas que desea'))
